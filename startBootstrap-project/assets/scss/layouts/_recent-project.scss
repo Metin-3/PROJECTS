@@ -1,0 +1,51 @@
+#recent-project {
+    position: static;
+
+    h6 {
+        text-align: center;
+        font-family: $font-sans;
+        font-weight: 700;
+        color: $color-orign;
+        padding-top: 50px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: $font-sans;
+        font-weight: 700;
+        font-size: 50px;
+        padding: 0 0 30px 0;
+    }
+
+    .img-link {
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 100%;
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(0.9);
+                filter: opacity(50%);
+            }
+
+        }
+
+        h5 {
+            color: $color-white;
+            font-family: $font-sans;
+            font-weight: 700;
+            position: absolute;
+            bottom: 80px;
+            left: 60px;
+        }
+
+        p {
+            position: absolute;
+            bottom: 20px;
+            left: 60px;
+            color: $color-white;
+        }
+    }
+}

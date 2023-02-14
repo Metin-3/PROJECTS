@@ -1,0 +1,53 @@
+@import "../abstract/variables";
+
+#offer {
+    background-color: $color-blue;
+    text-align: center;
+    width: 100%;
+
+    .services {
+        color: $color-orign;
+        padding-top: 60px;
+        font-weight: 700;
+        font-family: $font-sans;
+    }
+
+    h1 {
+        font-family: $font-sans;
+        color: $color-white;
+        font-weight: 700;
+        font-size: 50px;
+        padding: 0 0 50px 0;
+    }
+
+    p {
+        color: $color-blue;
+        filter: brightness(50%);
+        font-family: $font-sans;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-bottom: 70px;
+
+
+        i {
+            padding: 30px;
+            border: 1px solid $color-white;
+            background-color: $color-white;
+            border-radius: 50%;
+            color: $color-blue;
+            font-size: 25px;
+        }
+
+        h2 {
+            font-family: $font-sans;
+            padding: 10px 0 0 0;
+            color: $color-white;
+            font-weight: 700px;
+        }
+    }
+}

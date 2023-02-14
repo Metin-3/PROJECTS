@@ -1,0 +1,43 @@
+#welcome {
+    background-image: url(./../media/images/bg-callout.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .welcome-content {
+        @include center;
+        text-align: center;
+
+        h1 {
+            font-family: $font-sans;
+            font-weight: 700;
+            font-size: 60px;
+        }
+
+        p {
+            font-family: $font-sans;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        button {
+            border: none;
+            background-color: $green;
+            border-radius: 5px;
+            padding: 15px 20px;
+            font-weight: 500;
+            font-family: $font-sans;
+            color: $color-white;
+            transition: 0.5s;
+            font-size: 20px;
+
+            &:hover {
+                background-color: $color-black;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import "../abstract/variables";
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    nav {
+        background-color: $color-black;
+        padding: 20px 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .logo {
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .navbar {
+
+            @media(max-width: 768px) {
+                display: none !important;
+            }
+
+            li {
+
+                a {
+                    color: $color-white;
+                    font-family: sans-serif;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: -3px;
+                        width: 0;
+                        height: 2px;
+                        background-color: $color-orign;
+                        transition: 0.5s;
+                    }
+
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .mobil-menu {
+            display: none;
+
+            @media(max-width: 768px) {
+                display: block;
+                text-align: end;
+            }
+
+            button {
+                background-color: $color-black;
+                color: $color-white;
+                outline: none;
+                border: none;
+
+                &:focus {
+                    box-shadow: 2px 2px 3px $color-black;
+                }
+            }
+
+            img {
+                width: 50%;
+            }
+
+            ul {
+                text-align: center !important;
+
+                li {
+
+                    a {
+                        color: $color-black;
+                        font-weight: 700;
+                        font-family: $font-sans ;
+                        margin: 20px 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
