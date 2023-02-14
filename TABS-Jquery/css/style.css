@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tab-naviagtion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tab-naviagtion__item {
+  margin: 5px;
+}
+
+.tab-naviagtion__item .fab {
+  cursor: pointer;
+  text-align: center;
+  width: 125px;
+  height: 85px;
+  line-height: 85px;
+  font-size: 2.3em;
+  border-radius: 7px;
+  color: white;
+  background-color: gray;
+}
+
+.tab-naviagtion__item .fa-spotify {
+  background-color: #81b71a;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.tab-naviagtion__item .fa-spotify:hover {
+  background-color: #80b71ae5;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.tab-naviagtion__item .fa-cc-apple-pay {
+  background-color: #fc3158;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.tab-naviagtion__item .fa-cc-apple-pay:hover {
+  background-color: #fc3159de;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.tab-naviagtion__item .fa-twitter {
+  background-color: #00acee;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.tab-naviagtion__item .fa-twitter:hover {
+  background-color: #00abeede;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.tab-naviagtion__item .fa-youtube {
+  background-color: #FF0000;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.tab-naviagtion__item .fa-youtube:hover {
+  background-color: #ff0000e1;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.tab-naviagtion__item .fa-windows {
+  background-color: #357EC7;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.tab-naviagtion__item .fa-windows:hover {
+  background-color: #357ec7e3;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.tab-menu-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 255px;
+}
+
+.tab-menu-content__item {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 50%;
+  opacity: 0;
+  padding: 12px;
+  border-radius: 7px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: opacity .3s, -webkit-transform .3s;
+  transition: opacity .3s, -webkit-transform .3s;
+  transition: transform .3s, opacity .3s;
+  transition: transform .3s, opacity .3s, -webkit-transform .3s;
+  background-color: rgba(255, 255, 255, 0.356);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tab-menu-content__item.active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: -webkit-transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28), -webkit-transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.tab-menu-content__item .fa-spotify {
+  font-size: 7.9em;
+  color: #81b71a;
+}
+
+.tab-menu-content__item .fa-cc-apple-pay {
+  font-size: 7.9em;
+  color: #fc3158;
+}
+
+.tab-menu-content__item .fa-twitter {
+  font-size: 7.9em;
+  color: #00acee;
+}
+
+.tab-menu-content__item .fa-youtube {
+  font-size: 7.9em;
+  color: #FF0000;
+}
+
+.tab-menu-content__item .fa-windows {
+  font-size: 7.9em;
+  color: #357EC7;
+}
+
+.tab-menu-content__description {
+  text-align: justify;
+  width: 555px;
+  color: black;
+}
+
+body {
+  background-color: rgba(135, 207, 235, 0.466);
+}
+/*# sourceMappingURL=style.css.map */
