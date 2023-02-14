@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/img_parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.header h2{
+    color: #fff;
+    letter-spacing: 8px;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.header h2 span{
+    border: 1px solid black;
+    background-color: black;
+    padding: 20px 30px;
+}
+
+.header-paragraf1{
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 40px 0 20px 0;
+}
+
+.paragraf1{
+    line-height: 20px;
+    word-spacing: 8px;
+    color: grey;
+    padding: 20px 0;
+}
+
+.less-height{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./images/img_parallax2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.less-height h2{
+    color: #fff;
+    letter-spacing: 8px;
+    text-align: center;
+    padding-top: 23vh;
+}
+
+.less-height h2 span{
+    padding: 30px;
+}
+
+.scroll-paralax{
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.scroll-up{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./images/img_parallax3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.scroll-up h2{
+    color: #fff;
+    letter-spacing: 8px;
+    text-align: center;
+    padding-top: 22vh;
+}
+
+.scroll-up h2 span{
+    padding: 30px;
+}
+
+.cool{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/img_parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.cool h2{
+    color: #fff;
+    letter-spacing: 8px;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.cool h2 span{
+    border: 1px solid black;
+    background-color: black;
+    padding: 30px;
+}
